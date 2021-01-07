@@ -1,0 +1,29 @@
+/*
+---- RESET CSS
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*
+---- CUSTOM CSS PROPERTIES
+*/
+:root {
+    --primary-color:#f1c40f;
+}
+
+/*
+---- STYLING PAGE
+*/
+nav {
+    height: 80px;
+    background: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw - 1300px) / 2);
+    
+}
